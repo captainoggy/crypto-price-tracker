@@ -1,0 +1,21 @@
+{
+  "name": "tether",
+  "version": "1.0.0",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@hyperswarm/rpc": "^3.3.2",
+    "axios": "^1.8.3",
+    "dotenv": "^16.4.7",
+    "hyperbee": "^2.23.0",
+    "hypercore": "^11.0.48",
+    "hyperdht": "^6.20.1"
+  }
+}
